@@ -24,6 +24,7 @@ public class MyResource {
     public String inquireAcaps(@PathParam("acapsId") String acapsId) {
     	
     	System.out.println("Acaps id passed " + acapsId);
+    	System.out.println("Acaps id passed " + acapsId);
         return "ACAPS ID " + acapsId;
     }   
 }
